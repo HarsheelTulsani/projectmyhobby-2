@@ -1,0 +1,50 @@
+#cycle {
+    border-radius: 50%;
+    width: 240px;
+}
+
+body {
+    background-image: linear-gradient(90deg, red, orange, yellow);
+    text-align: center;
+}
+.sline{
+    width: 150px;
+    height: 7px;
+    background-color: blue;
+    margin:8px auto;
+}
+#heading{
+    color: darkblue;
+    font-family: 'Inconsolata', monospace;
+    font-size:25px;
+}
+#secinfo{
+    color: darkblue;
+    font-family: 'Inconsolata', monospace;
+    font-size:25px;
+}
+.menus{
+    list-style: none;
+    position:absolute;
+    font-family: 'Roboto Mono', monospace;
+    top:11px;
+    right:30px;
+    cursor:pointer;
+    z-index:10;
+}
+.menu{
+    float:left;
+    color:white;
+    padding-right: 12px;
+    padding-left: 12px;
+    font-size: 17px;
+    font-weight:bolder;
+    
+}
+.menu:hover{
+    background-color:chartreuse;
+}
+a{
+    color:darkorchid;
+    text-decoration-line: none;
+}
